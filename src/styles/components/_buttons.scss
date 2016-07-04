@@ -1,0 +1,39 @@
+.button {
+  padding: 6px 12px;
+  background: #4285f4;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .5px;
+  transition: box-shadow .175s ease-out;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+  }
+
+  &:active {
+    box-shadow: 0 4px 18px rgba(0,0,0,.35);
+  }
+
+  &:focus {
+    box-shadow: 0 4px 18px rgba(0,0,0,.45);
+  }
+}
+
+.icon-button {
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  outline: none;
+  color: #4285f4;
+}

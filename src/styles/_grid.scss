@@ -1,0 +1,40 @@
+.row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.row.wrap {
+  flex-wrap: wrap;
+}
+
+.row.space-between {
+  justify-content: space-between;
+}
+
+.row.end {
+  justify-content: flex-end;
+}
+
+.holder {
+  position: relative;
+  padding-top: 140px;
+  padding-left: 180px;
+}
+
+.page-container,
+.view-container {
+  height: 100%;
+  min-height: 100%;
+}
+
+@media (max-width: 767px) {
+  .holder {
+    padding: 20px !important;
+
+    h2 {
+      text-align: center;
+    }
+  }
+}

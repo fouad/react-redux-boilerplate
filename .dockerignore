@@ -1,0 +1,8 @@
+build/
+bin/
+src/
+node_modules/
+interfaces/
+server/
+config/
+tests/

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Freight Sans';
+  src: url('https://strongintro.com/fonts/FreigSanProLig.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Freight Sans';
+  src: url('https://strongintro.com/fonts/FreigSanProBook.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Freight Sans';
+  src: url('https://strongintro.com/fonts/FreigSanProMed.otf') format('opentype');
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: 'Freight Sans';
+  src: url('https://strongintro.com/fonts/FreigSanProSem.otf') format('opentype');
+  font-weight: 600;
+}

@@ -1,0 +1,58 @@
+:global {
+  @import 'base';
+  @import 'vendor/normalize';
+
+  // Some best-practice CSS that's useful for most apps
+  // Just remove them if they're not what you want
+  html {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .rendered-message {
+    font-family: 'Helvetica Neue';
+
+    tr {
+      // padding: 8px;
+    }
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+
+  .container {
+    max-width: 1330px;
+    margin: 0 auto;
+  }
+
+  .holder {
+    position: relative;
+    padding-top: 140px;
+    padding-left: 180px;
+
+    h3 {
+      font-size: 18px;
+      margin: 5px 10px 15px;
+      font-weight: 500;
+    }
+  }
+}
